@@ -100,7 +100,3 @@ Customers with high churn probability can be prioritized for:
 ## SQL
 
 Use `sql/schema.sql` to create a table for the preprocessed dataset and `sql/analysis_queries.sql` to inspect churn rate, plan-level risk, engagement, and high-risk retention segments. The `src/load_to_sqlite.py` script loads the dataset into a local SQLite database for a runnable SQL workflow.
-
-## Major Project Readiness
-
-This is now suitable as a major project base because it includes data generation, preprocessing-ready data, EDA, SQL integration, tuned supervised ML models, model evaluation, explainability reports, retention targeting, and prediction inference. For a real company-grade version, replace the synthetic dataset with approved production or survey data.
